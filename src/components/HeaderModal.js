@@ -6,7 +6,7 @@ const Header = ({ onAbrirCarrinho }) => {
   return (
     <header className="header">
       <div className="logo">
-        <a href="/">CaçaBlade</a>
+        <a href="/">Aço&Caça</a>
       </div>
 
       <nav className="nav">

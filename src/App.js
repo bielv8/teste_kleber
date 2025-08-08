@@ -5,6 +5,7 @@ import ProductList from './components/ProductList';
 import CarrinhoModal from './components/CarrinhoModal';
 import ProductModal from './components/ProductModal';
 import Header from './components/HeaderModal';
+import Footer from './components/FooterModal';
 
 function App() {
   const [mostrarModalLogin, setMostrarModalLogin] = useState(false);
@@ -80,6 +81,11 @@ function App() {
       {produtoSelecionado && (
         <ProductModal produto={produtoSelecionado} onClose={fecharModalProduto} />
       )}
+      {produtoSelecionado && (
+  <ProductModal produto={produtoSelecionado} onClose={fecharModalProduto} />
+)}
+
+<Footer />
     </div>
   );
 }
