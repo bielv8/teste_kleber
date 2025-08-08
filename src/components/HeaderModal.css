@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons a,
+.cart-button {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  color: #ffcc00;
+}
